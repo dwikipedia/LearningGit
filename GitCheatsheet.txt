@@ -1,0 +1,38 @@
+savest way to push changes with updated main
+===============================================
+
+git stash
+git reset --hard origin/main
+git stash apply
+
+OR
+====
+git checkout
+git fetch
+git merge origin/main
+
+*open git batch
+git commit
+*use :wqa if asked commit message
+git push
+
+git Cherry-Pick
+----------------- 
+git checkout - #branchToCHerryPickedname
+git log --oneline
+*get the id
+git checkout - backtomainBranch
+git cherry-pick 123947TheId
+
+
+update last commit
+------------------
+git commit --amend
+
+create a new branch based on current branch
+----------------------------------------
+git switch -c nameOfTheBranch
+
+to merge changes
+---------------- 
+git merge nameOfTheBranch
