@@ -36,3 +36,8 @@ git switch -c nameOfTheBranch
 to merge changes
 ---------------- 
 git merge nameOfTheBranch
+
+git remote
+------------
+git remote add origin *link*
+git push --all
